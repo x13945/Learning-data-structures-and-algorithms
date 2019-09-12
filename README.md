@@ -7,7 +7,7 @@
 
 ## 试题
 
-[实现一个单例](./src/question_2)
+[实现一个单例](./src/main/java/question_2)
 
 ## TODO
 
