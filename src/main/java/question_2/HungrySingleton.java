@@ -1,12 +1,12 @@
 package question_2;
 
-final class HungrySingleton {
-    private HungrySingleton instance = new HungrySingleton();
+public final class HungrySingleton {
+    private static HungrySingleton instance = new HungrySingleton();
 
     private HungrySingleton() {
     }
 
-    public HungrySingleton getInstance() {
+    public static HungrySingleton getInstance() {
         return instance;
     }
 }

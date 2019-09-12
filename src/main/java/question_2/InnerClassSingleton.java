@@ -8,7 +8,7 @@ public class InnerClassSingleton {
     private InnerClassSingleton() {
     }
 
-    private InnerClassSingleton getInstance(){
+    public static InnerClassSingleton getInstance(){
         return SingletonHolder.instance;
     }
 }

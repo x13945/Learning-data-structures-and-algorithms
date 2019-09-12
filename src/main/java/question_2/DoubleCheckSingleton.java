@@ -1,12 +1,12 @@
 package question_2;
 
 public class DoubleCheckSingleton {
-    private DoubleCheckSingleton instance = null;
+    private static DoubleCheckSingleton instance = null;
 
     private DoubleCheckSingleton() {
     }
 
-    public DoubleCheckSingleton getInstance() {
+    public static DoubleCheckSingleton getInstance() {
         if (instance == null) {
             synchronized (DoubleCheckSingleton.class) {
                 if (instance == null) {

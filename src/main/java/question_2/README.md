@@ -16,7 +16,7 @@
 ## 懒汉模式-线程安全
 性能比较好，但是非线程安全
 
-示例：[LazySingleton](./LazySingleton.java)
+示例：[SyncSingleton](./SyncSingleton.java)
 
 ## 双重校验
 性能比较好，同时线程安全

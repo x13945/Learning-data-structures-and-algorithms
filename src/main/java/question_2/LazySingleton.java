@@ -1,11 +1,11 @@
 package question_2;
 
 public class LazySingleton {
-    private LazySingleton instance = null;
+    private static LazySingleton instance = null;
     private LazySingleton() {
     }
 
-    public LazySingleton getInstance() {
+    public static LazySingleton getInstance() {
         if (instance == null){
             instance = new LazySingleton();
         }
