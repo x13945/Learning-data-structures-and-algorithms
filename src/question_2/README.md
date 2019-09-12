@@ -27,5 +27,6 @@
 
 同样是借助classloader来实现的单例，但是具备延迟初始化以及线程安全
 
+示例：[InnerClassSingleton](./InnerClassSingleton.java)
 
 
