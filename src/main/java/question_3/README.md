@@ -6,9 +6,7 @@
 
 二维数组就类似下面的矩阵：
 
-$$
-\begin{array}{|c|c|c|c|}\hline 1 & {2} & {8} & {9} \\ \hline 2 & {4} & {9} & {12} \\ \hline 4 & {7} & {10} & {13} \\ \hline 6 & {8} & {11} & {15} \\ \hline\end{array}
-$$
+![矩阵](./matrix.png)
 
 假如从上面的矩阵中查找**7**。如果从左上角开始遍历，每一行和每一列都需要遍历，遍历起来很麻烦。但是如果从右上角开始遍历，则可以逐步剔除一些行和列。
 
@@ -17,3 +15,4 @@ $$
 ## 示例
 
 代码在[这里](./SearchInMatrix.java)
+单元测试在[这里](../../../test/java/question_3/SearchInMatrixTest.java)
