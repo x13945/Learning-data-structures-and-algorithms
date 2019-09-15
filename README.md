@@ -12,6 +12,7 @@
 - [面试题3：二维数组中的查找](./src/main/java/question_3)
 - [面试题4：替换空格](./src/main/java/question_4)
 - [面试题5：从尾到头打印链表](./src/main/java/question_5)
+- [面试题6：重建二叉树](./src/main/java/question_6)
 
 ## TODO
 
