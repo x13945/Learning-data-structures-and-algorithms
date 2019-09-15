@@ -13,6 +13,7 @@
 - [面试题4：替换空格](./src/main/java/question_4)
 - [面试题5：从尾到头打印链表](./src/main/java/question_5)
 - [面试题6：重建二叉树](./src/main/java/question_6)
+- [面试题7：用两个栈实现队列](./src/main/java/question_7)
 
 ## TODO
 
