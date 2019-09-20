@@ -15,6 +15,7 @@
 - [面试题6：重建二叉树](./src/main/java/question_6)
 - [面试题7：用两个栈实现队列](./src/main/java/question_7)
     - [面试题7附加题：用两个队列实现栈](./src/main/java/question_7_1)
+- [面试题8：旋转数组的最小数字](./src/main/java/question_8)
 
 ## 参考
 
