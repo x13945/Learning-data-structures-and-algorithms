@@ -18,6 +18,7 @@
 - [面试题8：旋转数组的最小数字](./src/main/java/question_8)
 - [面试题9：斐波那契数列的第N项](./src/main/java/question_9)
     - [面试题9附加题：青蛙跳台阶](./src/main/java/question_9_1)
+- [面试题10：二进制中1的个数](./src/main/java/question_10)
 
 ## 参考
 
