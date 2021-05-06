@@ -23,6 +23,7 @@
 ## 参考
 
 - [排序算法](./src/main/java/sort)
+- [二分查找](app/src/main/java/org/lstec/algorithm/binary_search/)
 
 ## TODO
 
