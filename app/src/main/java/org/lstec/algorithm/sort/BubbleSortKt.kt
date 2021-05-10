@@ -3,7 +3,7 @@ package org.lstec.algorithm.sort
 class BubbleSortKt {
     companion object {
         fun sort(arr: IntArray?): IntArray? {
-            return if (arr == null || arr.size == 1) {
+            return if (arr == null || arr.size <= 1) {
                 arr
             } else {
                 for (i in arr.indices) {
