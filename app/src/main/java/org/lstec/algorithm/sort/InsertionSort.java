@@ -12,15 +12,15 @@ public class InsertionSort {
 
         for (int i = 1; i < data.length - 1; i++) {
             int value = data[i];
-
-            for (int j = i - 1; j >= 0; j--) {
+            int j = i - 1;
+            for (; j >= 0; j--) {
                 if (data[j] > value) {
                     data[j + 1] = data[j];
                 } else {
-                    data[j + 1] = value;
                     break;
                 }
             }
+            data[j + 1] = value;
         }
 
         return data;
